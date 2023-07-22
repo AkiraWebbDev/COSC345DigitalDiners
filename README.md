@@ -1,1 +1,1 @@
-# COSC345 DigitalDiners# COSC343 DigitalDiners
+# COSC345 DigitalDiners
