@@ -19,6 +19,9 @@ set(PROJECT_SOURCES
         mainwindow.cpp
         mainwindow.h
         mainwindow.ui
+        recipecard.cpp
+        recipecard.ui
+        recipecard.h
         ${TS_FILES}
 )
 
@@ -26,6 +29,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(PantryPro
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
+        recipecard.h recipecard.cpp recipecard.ui
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET PantryPro APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR
