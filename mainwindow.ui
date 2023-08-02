@@ -124,13 +124,7 @@
          <height>379</height>
         </rect>
        </property>
-       <layout class="QVBoxLayout" name="CardsLayout_2">
-        <item>
-         <widget class="QWidget" name="verticalWidget" native="true">
-          <layout class="QVBoxLayout" name="verticalLayout"/>
-         </widget>
-        </item>
-       </layout>
+       <layout class="QVBoxLayout" name="CardsLayout_2"/>
       </widget>
      </widget>
     </widget>

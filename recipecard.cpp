@@ -13,3 +13,4 @@ RecipeCard::~RecipeCard()
 {
     delete ui;
 }
+

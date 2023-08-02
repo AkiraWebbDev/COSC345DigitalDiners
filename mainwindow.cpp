@@ -18,6 +18,6 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_add_clicked()
 {
-    RecipeCard * card = new RecipeCard;
-    ui->CardsLayout->addWidget(card);
+    RecipeCard * recipecard = new RecipeCard;
+    ui->CardsLayout->setWidget(recipecard);
 }

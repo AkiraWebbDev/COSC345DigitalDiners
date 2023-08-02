@@ -20,4 +20,5 @@ private:
 
 };
 
+
 #endif // RECIPECARD_H
